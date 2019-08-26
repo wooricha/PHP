@@ -1,4 +1,4 @@
-##반복문 loop
+## 반복문 loop
 <br>while(표현식)
     statement
 <br>표현식이 참이면 statement가 실행이 반복

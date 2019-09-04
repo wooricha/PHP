@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+  </head>
+  <body>
+    <form action="form.php" method="get"> <!-- form.php로 연결 -->
+      <!-- method를 지정하지 않으면 기본값은 get : 서버로 데이터를 전송할때 url을 통해서 전송
+    url의 파라미터를 통해 데이터가 전송, 북마크용도로 적합, 데이터를 추가, 수정, 삭제의 경우 사용하지 않음 -->
+      <p><input type="text" name="title" placeholder="title"></p>
+      <!-- 제목을 입력하는 창 -->
+      <p><textarea name="description"></textarea></p>
+      <p><input type="submit"></p>
+      <!-- 데이터 전송버튼 -->
+    </form>
+  </body>
+</html>
